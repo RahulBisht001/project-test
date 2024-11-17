@@ -11,9 +11,9 @@ const Contact = () => {
         };
 
         const eventData = {
-            name: "About Clicked", // *required
+            name: "Contact Clicked", // *required
             domain: "project-test-gamma-black.vercel.app", // *required
-            description: "User reached on the about page", // optional
+            description: "User reached on the contact page", // optional
         };
 
         const sendRequest = async () => {

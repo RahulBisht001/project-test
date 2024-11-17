@@ -11,9 +11,9 @@ const Payment = () => {
         };
 
         const eventData = {
-            name: "About Clicked", // *required
+            name: "Payment Clicked", // *required
             domain: "project-test-gamma-black.vercel.app", // *required
-            description: "User reached on the about page", // optional
+            description: "User reached on the payment page", // optional
         };
 
         const sendRequest = async () => {
