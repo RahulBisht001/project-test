@@ -28,7 +28,7 @@ export default function RootLayout({
             <script
                 defer
                 data-domain="project-test-gamma-black.vercel.app"
-                src="http://localhost:3000/tracking-script.js"
+                src="https://dataroc8.vercel.app/tracking-script.js"
             ></script>
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
         </html>
