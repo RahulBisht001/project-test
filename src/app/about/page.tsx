@@ -7,7 +7,7 @@ const About = () => {
         const url = "https://dataroc8.vercel.app/api/events";
         const headers = {
             "Content-Type": "application/json",
-            Authorization: "Bearer {{apiKey}}",
+            Authorization: "Bearer w1w8roz7wvdqnpuxikv7h",
         };
 
         const eventData = {
@@ -27,9 +27,11 @@ const About = () => {
         sendRequest();
     };
     return (
-        <div>
-            About
-            <button onClick={handleCustomEvent}>Click Me</button>
+        <div className="flex flex-col items-center justify-center">
+            <p>About Custom Event Testing</p>
+            <button onClick={handleCustomEvent} className="p-4 bg-green-500 text-black">
+                Click Me
+            </button>
         </div>
     );
 };
