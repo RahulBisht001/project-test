@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 
 const About = () => {
-    (() => {
+    const handleCustomEvent = () => {
         const url = "https://dataroc8.vercel.app/api/events";
         const headers = {
             "Content-Type": "application/json",
@@ -24,8 +24,13 @@ const About = () => {
             });
         };
         sendRequest();
-    })();
-    return <div>About</div>;
+    };
+    return (
+        <div>
+            About
+            <button onClick={handleCustomEvent}>Click Me</button>
+        </div>
+    );
 };
 
 export default About;
